@@ -13,7 +13,7 @@ namespace Module2HW3
             Sweets foundSweet = null;
             for (var i = 0; i < sweets.Length; i++)
             {
-                if (sweets[i].Name == name)
+                if (sweets[i].Name == name || sweets[i].Name.ToLower() == name)
                 {
                     foundSweet = sweets[i];
                     break;
