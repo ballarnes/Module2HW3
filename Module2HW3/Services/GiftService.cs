@@ -10,7 +10,7 @@ namespace Module2HW3
     {
         public int GetWeight(Sweets[] sweets)
         {
-            int totalWeight = 0;
+            var totalWeight = 0;
             for (int i = 0; i < sweets.Length; i++)
             {
                 totalWeight += sweets[i].Weight;

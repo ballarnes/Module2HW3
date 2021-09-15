@@ -24,7 +24,7 @@ namespace Module2HW3
         public void WeightOutput(Sweets[] sweets)
         {
             var giftService = new GiftService();
-            int totalWeight = giftService.GetWeight(sweets);
+            var totalWeight = giftService.GetWeight(sweets);
             Console.WriteLine($"Total weight of sweets in the gift: {totalWeight}g");
         }
 

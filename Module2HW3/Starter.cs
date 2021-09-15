@@ -22,7 +22,7 @@ namespace Module2HW3
             consoleOutputService.WeightOutput(sweets);
 
             Console.WriteLine("Enter sweet's name to find: ");
-            string findSweet = Console.ReadLine();
+            var findSweet = Console.ReadLine();
             Sweets foundSweet = search.Search(sweets, findSweet);
             consoleOutputService.FoundedSweetOutput(foundSweet);
         }
