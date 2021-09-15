@@ -6,7 +6,8 @@ namespace Module2HW3
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var starter = new Starter();
+            starter.Run();
         }
     }
 }
